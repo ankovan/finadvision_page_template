@@ -1,0 +1,767 @@
+body {
+    background-image: url("C:\\Users\\ankovan\\Desktop\\work\\site\\shablons making\\finadvision\\greenbackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sheet {
+    background-color: white;
+    margin: 4rem 5rem 4rem 5rem;
+    padding: 2rem 3rem 2rem 3rem;
+    box-shadow: 0px 3px 7px 4px rgba(0,0,0,0.4);
+    position: relative;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0.8rem;
+    text-decoration: none;
+    font-size: 1.14rem;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.navbar li a:hover {
+    border-bottom: 2px solid #2CBC62;
+}
+.navbar li a.active {
+    border-bottom: 2px solid #2CBC62;
+}
+.navbar {
+    float: right;
+    margin-bottom: 2rem;
+}
+.logo {
+    float:left;
+    height: 65px;
+}
+.logo img {
+    height: 100%;
+}
+header {
+    display: flow-root;
+}
+.welcome {
+    background-image:url("C:\\Users\\ankovan\\Desktop\\work\\site\\shablons making\\finadvision\\welcome2.jpeg");
+    height: 100vh;
+    background-size: cover;
+    padding: 1rem 3rem 1rem 3rem;
+    padding-right: 49%;
+    margin: 0 -3rem 0 -3rem;
+}
+.welcome p.hookphrase {
+    font-weight: 700;
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2rem;
+    padding-top: 1.5rem;
+    padding-right: 30%;
+    margin-bottom: 1rem ;
+    margin-top: 4.2rem;
+}
+.welcome h1 {
+    font-size: 5rem;
+    color: #2CBC62;
+    font-weight: 800;
+    margin-bottom: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 4.9rem;
+    margin-top: 1.5rem;
+}
+.welcome p.welcomedisc {
+font-size: 1rem;
+margin-bottom: 3rem;
+padding-right: 40%;
+font-family: 'Poppins', sans-serif;
+width: 22rem;
+}
+.welcome a {
+    color:white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #2CBC62;
+    border-radius: 2rem;
+    border-color: #2CBC62;
+    padding:1rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2.8rem;
+}
+.welcome a:hover {
+    background-color: #FFF000;
+    color: black;
+}
+.principles h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 800;
+    font-family:'Poppins', sans-serif;
+}
+.principles {
+    display: flow-root;
+    margin-bottom: 2.8rem;
+}
+.principles .principle {
+    float: left;
+    width:33.3333333333%;
+    position: relative;
+}
+.principles .principle .numbers {
+    position:absolute;
+    top: 7rem;
+    left:0;
+    z-index: 1;
+    font-size: 5.7rem;
+    color: #EDF3F7;
+    font-family: 'Abhaya Libre', serif;
+}
+.principles .principle p {
+    position: relative;
+    z-index: 10;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.1rem;
+    font-size: 1.15rem;
+    display: block;
+    width: 80%;
+    font-family: 'PT Sans', sans-serif;
+}
+.principles .principle ol {
+    padding-left: 4rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'PT Sans', sans-serif;
+}
+.principles .principle h3 {
+    margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.7rem;
+}
+.principles .wrapper {
+    margin-left: 2.4rem;
+}
+.about {
+    background-color: #2BB961;
+    margin: 0 -3rem 0 -3rem;
+    color: white;
+    display: flow-root;
+    height: 83vh;
+    position: relative;
+    box-shadow: inset 0px 0px 50px 41px #2CB760;
+}    
+.about img {
+    width: 83vh;
+    bottom: 0;
+    position: absolute;
+    z-index: 20;
+}
+.about_preview {
+    float: left;
+    position:absolute;
+    height: 100%;
+    width: 50%;
+}
+.about_content {
+    float: right;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.about .quote {
+    padding:0;
+    padding-top: 10rem;
+    margin-right: 1rem;
+    font-size: 1.9rem;
+    /* width: 39rem; */
+    line-height: 2.5rem;
+}
+.about h2 {
+    z-index: 30;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 3.4rem;
+    padding-left: 2.9rem;
+    padding-top: 3.1rem;
+    position: relative;
+}
+.about p {
+    padding-left: 4rem;
+    padding-right: 2.5rem;
+    padding-top: 1.8rem;
+    margin-bottom: 2.3rem;
+    width: 28rem;
+    line-height: 1.8rem;
+}
+.about a {
+    color:white;
+    background-color: #2cc466f6;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    border-color: white;
+    padding: 0.6rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin-left: 4rem;
+    border: 0.1rem solid;
+    font-weight:600;
+    font-size: 1rem;
+}
+.about a:hover {
+    background-color: #FFF000;
+    color: black;
+    border: 0;
+}
+.about .quote {
+    position: relative;
+}
+.about i {
+    color:yellow;
+    position:absolute;
+    top: 8.8rem;
+    left:-2.8rem;
+    font-size: 1.78rem;
+}
+.best_team {
+    display: flow-root;
+    margin-bottom: 4rem;
+}
+.best_team h3{
+    font-size: 1.9rem;
+    margin-top: 0.4rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.best_team .sent1 {
+    font-weight: 300;
+    margin-top: 0.4rem;
+    font-size: 0.95rem;
+}
+.best_team .sent2 {
+    font-weight: 300;
+    font-size: 0.95rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.best_team_content {
+    float:left;
+    width: 26%;
+    margin-top: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.best_team_content span {
+    color:#2CBC62;
+}
+.best_team_content .view_more 
+{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #2CBC62;
+    border-radius: 2rem;
+    border-color: #2CBC62;
+    padding:0.65rem;
+    padding-right: 2.7rem;
+    padding-left: 2.7rem;
+    font-family: 'Poppins', sans-serif;
+}
+.best_team_content a:hover {
+    background-color: #FFF000;
+    color: black;
+}
+.worker {
+    float: right;
+    width:24%;
+}
+.worker .wrapper {
+    padding:0.5rem;
+    margin-top: 4rem;
+    position: relative;
+}
+.best_team img {
+width: 100%;
+display: block;
+}
+.worker .wrapper .worker_description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: inherit;
+    color: white;
+    background-color: #2CBC62aa;
+    background-clip: content-box;
+    box-sizing: border-box;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    line-height: 0; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    display: none;
+}
+.worker .wrapper:hover .worker_description {
+    display: block;
+}
+.worker .wrapper .worker_description .name {
+    margin-bottom: 0.4rem;
+    margin-top: 12.5rem;
+    font-weight: 600;
+    letter-spacing: 0.14rem;
+    margin-bottom: 1.3rem;
+}
+.worker .wrapper .worker_description .prof {
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.worker .wrapper .worker_description i {
+   color: white; 
+}
+.worker .wrapper .worker_description i:hover {
+    color: #FFF000;
+}
+.need_consultation {
+    background-image:url("C:\\Users\\ankovan\\Desktop\\work\\site\\shablons making\\finadvision\\officetable.jpg");
+    margin: 0 -3rem 0 -3rem;
+    height: 40vh;
+    background-repeat: round;
+    background-repeat-y: repeat;
+    background-position: left;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.need_consultation .vertical_align_center {
+    background-color: #01c049aa;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.need_consultation h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+}
+.need_consultation span {
+    font-weight: 500;
+}
+.need_consultation p {
+    margin-top: 0.1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.need_consultation a {
+    color:white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.need_consultation a:hover {
+    color:  #FFF000;
+}
+.latest_posts {
+    display: flow-root;
+    margin: 2rem;
+}
+.latest_posts .latest_posts_review img {
+    width: 100%;
+    display: block;
+}
+.latest_posts .latest_posts_review {
+    float: left;
+    width: 50%;
+    position: relative;
+    background-color: #2CBC62aa;
+}
+.latest_posts .latest_posts_review .laptop_image {
+    position: relative;
+}
+.latest_posts .latest_posts_review .laptop_image .gradient {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: #2CBC62aa;
+    background: rgb(44,188,98);
+    background: linear-gradient(0deg, rgba(44,188,98,1) 0%, rgba(0,212,255,0) 57%);
+}
+.latest_posts .latest_posts_review:hover .laptop_image .gradient {
+    background: rgb(44,188,98);
+    background: linear-gradient(0deg, rgba(44,188,98,1) 0%, rgba(44,188,98,0.02874653279280459) 100%);
+}
+.latest_posts .latest_posts_review .latest_posts_review_data {
+    color: white;
+    position: absolute;
+    bottom:2rem;
+    left:2.5rem;
+    line-height: 0.8rem;
+    z-index: 20;
+}
+.latest_posts .latest_posts_review .latest_posts_review_data p {
+    font-family: 'Poppins', sans-serif;
+}
+.latest_posts .latest_posts_review .latest_posts_review_data a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.latest_posts .latest_posts_review .latest_posts_review_data a:hover {
+    text-decoration: underline;
+}
+.latest_posts .latest_posts_content {
+    float: right;
+    width: 50%;
+}
+.latest_posts .latest_posts_content h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2A2D37;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+.latest_posts .latest_posts_content span {
+    color: #2CBC62;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.latest_posts_content_inside {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 3.5rem ;
+}
+.latest_posts .latest_posts_content .latest_posts_content_inside .quote {
+    font-weight: 300;
+    font-size: 0.95rem;
+}
+.latest_posts .latest_posts_content .date_badge {
+    width: 4.7rem;
+    border: 2px solid #ECF6FF;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #2CBC62;
+    line-height: 0;
+    background-color: #ECF6FF;
+}
+.latest_posts .latest_posts_content .date_badge .date {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.latest_posts .latest_posts_content .date_badge .month {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.latest_posts .latest_posts_content .latest_posts_content_inside .post {
+    display: flow-root;
+    margin-bottom: 1rem;
+}
+.latest_posts .latest_posts_content .latest_posts_content_inside .post .date_badge {
+    float:left;
+    margin-right:1.2rem;
+}
+.latest_posts .latest_posts_content .latest_posts_content_inside .post .post_name {
+    text-decoration: none;
+    color: black;   
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.latest_posts .latest_posts_content .latest_posts_content_inside .post .post_writer {
+    text-decoration: none;
+    color:#2CBC62;
+}
+.latest_posts .latest_posts_content .latest_posts_content_inside .post .post_data {
+    padding: 1rem;
+    line-height: 0.9rem;
+}
+.latest_posts .latest_posts_content .latest_posts_content_inside .post .post_name:hover {
+    color:#2CBC62;
+}
+.latest_posts .latest_posts_content .latest_posts_content_inside .post .post_writer:hover {
+    color:black;
+}
+.testimonials .testimonials_block {
+    display: flow-root;
+    font-family: 'Poppins', sans-serif;
+}
+.testimonials h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+}
+.testimonials .testimonials_block .comment_block .commentator .commentator_image {
+    width: 16.5%;
+    float: left;
+    margin-left: 1.7rem;
+}
+.testimonials .testimonials_block .comment_block .commentator .commentator_image img {
+    width: 100%;
+    border-radius: 50%;
+}
+.testimonials .testimonials_block .comment_block {
+    width: 33.3333%;
+    float: left;
+}
+.testimonials .testimonials_block .comment_block .comment {
+    margin: 1.5rem;
+    font-size: 0.93rem;
+    background-color: #7FDDA3;
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    line-height: 1.35rem;
+}
+.testimonials .testimonials_block .comment_block .commentator {
+display: flow-root;
+}
+.testimonials .testimonials_block .comment_block .commentator .status {
+float: left;
+line-height: 0.5rem;
+margin-left: 1.8rem;
+margin-top: 0.4rem;
+}
+.testimonials .testimonials_block .comment_block .commentator .status .name {
+    font-weight: 600;
+}
+.testimonials .testimonials_block .comment_block .commentator .status .rank {
+    font-size: 0.9rem;
+    color: #35BF69;
+}
+.contact_us {
+    display:flow-root;
+    margin-top: 4rem;
+}
+.contact_us .contact_us_content {
+    float: left;
+    width: 50%;
+    padding: 2.5rem;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+.contact_us .contact_us_form {
+    float: left;
+    width: 50%;
+    margin-top: 2.6rem;
+    padding-right: 2.5rem;
+    box-sizing: border-box;
+}
+.contact_us .contact_us_form input, 
+.contact_us .contact_us_form textarea {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #E5E5E5;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+    font-family: "Poppins", Sans-serif;
+}
+.contact_us .contact_us_form input::placeholder,
+.contact_us .contact_us_form textarea::placeholder {
+    color: black;
+    opacity: 1;
+}
+.contact_us .contact_us_form input:focus,
+.contact_us .contact_us_form textarea:focus {
+    border: 2px solid #8FD8AD;
+    outline: none !important;
+}
+.contact_us .contact_us_form textarea {
+    height: 13rem;
+}
+.contact_us .contact_us_form input[type=submit] {
+    background-color: #2CBC62;
+    border: solid 1px #2CBC62;
+    color: white;
+    width: unset;
+    border-radius: 4rem;
+    padding:unset;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.contact_us .contact_us_form input[type=submit]:hover {
+    background-color: #FFF000;
+    color: black;
+    border: solid 1px #FFF000;
+}
+.contact_us .contact_us_content h3 {
+    font-family:'Poppins', sans-serif; 
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.contact_us .contact_us_content span {
+    color: #2CBC62;
+}
+.contact_us .contact_us_content .textcon {
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.95rem;
+    margin-top: 0.6rem;
+}
+.contact_us .contact_us_content .inside {
+    float: left;
+    width: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.92rem;
+}
+.contact_us .contact_us_content .inside a {
+    text-decoration: none;
+    color: #2CBC62;
+}
+.contact_us .contact_us_content .inside a:hover {
+    color: black;
+}
+.contact_us .contact_us_content .inside .phone_text {
+margin-bottom: 0.2rem;
+}
+.contact_us .contact_us_content .badge {
+    float: left;
+    color: #2CBC62;
+    font-size: 2.1rem;
+    background-color: #ECF6FF;
+    padding: 1.2rem;
+    border-radius: 50%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+}
+.contact_us .contact_us_content .adress_phone  {
+    display: flow-root;
+    margin-left: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+.contact_us .contact_us_content .badge {
+    float: left;
+}
+.contact_us .contact_us_content .phone_inside {
+    float: left;
+}
+.contact_us .contact_us_content .phone {
+    display: flow-root;
+}
+.contact_us .contact_us_content .map {
+    width: 100%;
+}
+.nav_bottom {
+    display: flow-root;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4rem;
+}
+.nav_bottom .logo {
+    float: left;
+    width: 15%;
+}
+.nav_bottom .logo img {
+    width: 100%;
+    object-fit: contain;
+}
+.nav_bottom .column {
+    float: left;
+    margin-left: 6.5rem;
+    line-height: 2rem;
+}
+.nav_bottom .column h4 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.nav_bottom .column ul {
+    list-style-type: ">";
+    padding: 0;
+    margin: 0;
+}
+.nav_bottom .column ul li {
+    padding-left: 0.5rem;
+}
+.nav_bottom .column ul li::marker {
+    color: #2CBC62;
+}
+.nav_bottom .column ul a {
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    font-size: 0.95rem;
+}
+.nav_bottom .column ul a:hover {
+    color: #2CBC62;
+}
+.tags {
+    float: left;
+    width: 25%;
+    margin-left: 2.6rem;
+}
+.tags_wrapper {
+    line-height: 1rem;
+    background-color: #ecf6ff;
+    border-radius: 3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.22rem;
+    padding-right: 1.22rem;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.tags_wrapper:hover {
+    background-color: #2CBC62;
+}
+.tags_wrapper:hover a {
+    color: white;
+}
+.tags a {
+    text-decoration: none;
+    color:#2CBC62;
+    font-weight: 300;
+    font-size: 0.86rem;
+}
+footer {
+    text-align: center;
+    background-color: #2CBC62;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    color:white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 0.85rem;
+}
+.sheet footer p {
+    margin: 0;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
