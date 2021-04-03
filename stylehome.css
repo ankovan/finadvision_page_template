@@ -1,5 +1,5 @@
 body {
-    background-image: url("C:\\Users\\ankovan\\Desktop\\work\\site\\shablons making\\finadvision\\greenbackground.jpg");
+    background-image: url("/image/greenbackground.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -49,7 +49,7 @@ header {
     display: flow-root;
 }
 .welcome {
-    background-image:url("C:\\Users\\ankovan\\Desktop\\work\\site\\shablons making\\finadvision\\welcome2.jpeg");
+    background-image:url("/image/welcome2.jpeg");
     height: 100vh;
     background-size: cover;
     padding: 1rem 3rem 1rem 3rem;
@@ -333,7 +333,7 @@ display: block;
     color: #FFF000;
 }
 .need_consultation {
-    background-image:url("C:\\Users\\ankovan\\Desktop\\work\\site\\shablons making\\finadvision\\officetable.jpg");
+    background-image:url("/image/officetable.jpg");
     margin: 0 -3rem 0 -3rem;
     height: 40vh;
     background-repeat: round;
